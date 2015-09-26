@@ -3,7 +3,9 @@
   "version": "0.4.8",
   "description": "React UI Framework",
   "main": "lib/Elemental.js",
-  "author": "Jed Watson",
+  "author": {
+    "name": "Jed Watson"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -19,9 +21,12 @@
     "eslint": "^1.4.3",
     "eslint-plugin-react": "^3.4.1",
     "gulp": "^3.9.0",
-    "react": "0.14.0-rc1",
+    "react": "^0.13.3",
     "react-component-gulp-tasks": "^0.7.1",
     "react-router": "^0.13.3"
+  },
+  "peerDependencies": {
+    "react": "^0.13.0 || ^0.14.0-beta"
   },
   "browserify-shim": {
     "react": "global:React"
@@ -53,5 +58,27 @@
   "bugs": {
     "url": "https://github.com/Filsh/elemental-themeable/issues"
   },
-  "homepage": "https://github.com/Filsh/elemental-themeable#readme"
+  "homepage": "https://github.com/Filsh/elemental-themeable#readme",
+  "gitHead": "73561dd3abdea767fd2c479b69b8c3dfd899c344",
+  "_id": "elemental-themeable@0.4.8",
+  "_shasum": "f1e0cdb3212edeb9a8bbd937b6af0c52b8d2db6e",
+  "_from": "elemental-themeable@*",
+  "_npmVersion": "2.11.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "filsh",
+    "email": "imaliy.filsh@gmail.com"
+  },
+  "dist": {
+    "shasum": "f1e0cdb3212edeb9a8bbd937b6af0c52b8d2db6e",
+    "tarball": "http://registry.npmjs.org/elemental-themeable/-/elemental-themeable-0.4.8.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "filsh",
+      "email": "imaliy.filsh@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/elemental-themeable/-/elemental-themeable-0.4.8.tgz"
 }
