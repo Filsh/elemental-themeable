@@ -23,9 +23,6 @@
     "react-component-gulp-tasks": "^0.7.1",
     "react-router": "^0.13.3"
   },
-  "peerDependencies": {
-    "react": "0.14.0-rc1"
-  },
   "browserify-shim": {
     "react": "global:React"
   },
