@@ -55,13 +55,10 @@ module.exports = React.createClass({
 			this.props.className
 		);
 
-		// theme
-		var theme = themeable(this.props.theme);
-
 		// props
 		var props = {
 			...blacklist(this.props, 'theme', 'type', 'size', 'className'),
-			...theme(1, ...componentClass.split(' '))
+			...(this.props.theme ? themeable(this.props.theme)(1, ...componentClass.split(' ')) : {})
 		}
 
 		var tag = 'button';
